@@ -1,0 +1,35 @@
+/* section top bar */
+.top-bar {
+      /* box display */
+      padding: 1rem 0;
+      /* color */
+      background-color: deeppink;
+}
+/* social list */
+.top-bar__social-list {
+      flex-flow: row nowrap;
+      
+      align-items: center;
+      
+      display: flex;
+      padding: 0;
+      margin: 0;
+
+      list-style-type: none;
+
+}
+.top-bar__social-list >li {
+      margin-right: 1rem;
+}
+.top-bar__social-list >li >a{
+      color: white;
+}
+
+/* link */
+.top-bar__links {
+      /* color: white; */
+}
+.top-bar__links > a ,
+.top-bar__links > span {
+      color: white;
+}

@@ -1,0 +1,67 @@
+/* .btn{
+      width: 420px;
+      height: 95px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+
+
+      border-radius: 100rem;
+      border: 1;
+      display: flex;
+      
+      box-shadow: rgba(red, green, rgb(75, 75, 100), alpha);
+      color: white;
+      
+      justify-content: center;
+      align-items: center;
+
+
+}
+
+.btn--blue{
+      background-color: #C48D06;
+}
+.btn--darkBlue{
+      background-color: #62C419;
+}
+.btn--green{
+      background-color: #AA20C4;
+} */
+
+.card-item{
+      width: 270px;
+      border-radius: 8px;
+      box-shadow: rgba(white, green, blue, alpha, 0.5) 0px 7px 29px 0px;
+
+      overflow: hidden;
+}
+.card-item__image{
+      width: 100px;
+}
+.card-item__body{
+      padding: 20px;
+}
+
+.card-item__name{
+      font-size: 18px;
+      font-weight: bold;
+}
+.card-item__desc{
+      font-size: 12px;
+      color: #ccc;
+}
+
+.btn{
+      height: 36px;
+      border-radius: 8px;
+      color: #ccc;
+
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+}
+
+.btn--primary{
+      background-color: #2ccc;
+}
